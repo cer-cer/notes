@@ -21,7 +21,7 @@ function proxy_off(){
  
 function proxy_on() {
         export no_proxy="localhost,127.0.0.1,localaddress,.localdomain.com"
-        export http_proxy="socks5://127.0.0.1:1086"#注意，根据自己的配置设置有可能会是1080或1086
+        export http_proxy="socks5://127.0.0.1:1086" #注意，根据自己的配置设置有可能会是1080或1086
         export https_proxy=$http_proxy
         export ftp_proxy=$http_proxy
         export rsync_proxy=$http_proxy
