@@ -1,9 +1,13 @@
 
-//run in console
+## set
+### run in console
+```
 git config --global http.proxy 'socks5://127.0.0.1:1086'
 git config --global https.proxy 'socks5://127.0.0.1:1086'
+```
 
-//config in bash_profile
+### config in bash_profile
+```
 export PATH=/Users/allen.chen/prj/depot_tools:$PATH
 
 
@@ -29,11 +33,13 @@ function proxy_on() {
 }
 
 source .bash_profile
+```
 
+## recover
 
-recover
-
+```
 git config --global --unset http.proxy 
 git config --global --unset https.proxy
 
 proxy_off
+```
