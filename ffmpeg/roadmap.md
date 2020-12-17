@@ -8,11 +8,15 @@
   2. set the `OptionGroup` from `AVInputFormat`'s `pri_data`
   3. create `avformat_alloc_context` from `avformat_alloc_context` 
   4. list devices out put by `avformat_open_input`.
+  5. `avf_read_header`list the devices and check the input file.
 ```
 filename: -i "none: none"
 options: -list_devices true
 ```
-
+- base data struct
+  - AVOption
+  - AVClass
+  
 - capture the devices
   - the access to mac(c++ application)
   copy the `Info.plist` to the direction same as ffmpeg
