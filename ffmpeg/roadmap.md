@@ -13,9 +13,17 @@
 filename: -i "none: none"
 options: -list_devices true
 ```
-- base data struct
+- core data struct
   - AVOption
+  `AVOption` 描述了 `AVClass` 的属性，类型，以及在struct中的offset(`offsetof()`)。
   - AVClass
+  `AVClass` 作为ffmpeg中大多数struct的第一个元素，描述了struct中可以被option设置的类型，范围等信息。可以看作一个struct的元描述。
+  
+- base data type
+  - AVDictionary
+    - av_dict_set 
+    - av_dict_free
+    
   
 - capture the devices
   - the access to mac(c++ application)
