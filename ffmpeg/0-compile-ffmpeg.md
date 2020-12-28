@@ -1,0 +1,2 @@
+# Compile ffmpeg in Mac
+
