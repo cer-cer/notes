@@ -17,3 +17,7 @@
     `make -j8`
 
     you can compile according to your requirements.
+
+4. after success, you can see the ffmpeg version by `ffmpeg -version`.
+
+    ![image ffmpeg version](./env-asset/ffmpeg-version.png)
