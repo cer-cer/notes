@@ -189,8 +189,25 @@ void avdevice_register_all(void)
 
 *`avpriv_register_devices()`* 是 `libavformat`里面的一个函数，该函数初始化了全局变量 *`outdev_list`* 和 *`indev_list`* 的值。初始化完毕后，调用 *`av_format_init_next(void)`* 把设备构成一个单向链表。 这些操作都在 `libavformat` 库中完成，形成的链表和 *`muxer_list`* 以及 *`demuxer_list`* 结合起来。方便使用者根据格式的名字查询。
 
-*`outdev_list` 是一个 *`AVOutputFormat *`* 类型的指针。这个类型具有很多的成员对象，我们将在后面详细介绍。目前，我们只需要知道的是，这个结构体存在一个 成员变量 *`name`* ，描述了它在 `avformat` 中的名称，并且提供了该格式的相关方法指针，以及关联的一个内部类。这些结构将贯穿 `ffmpeg` 所有代码，我们会在后面着重的介绍他们。
+*`outdev_list`* 是一个 *`AVOutputFormat *`* 类型的指针。这个类型具有很多的成员对象，我们将在后面详细介绍。目前，我们只需要知道的是，这个结构体存在一个 成员变量 *`name`* ，描述了它在 `avformat` 中的名称，并且提供了该格式的相关方法指针，以及关联的一个内部类。这些结构将贯穿 `ffmpeg` 所有代码，我们会在后面着重的介绍他们。
 
 同样，*`indev_list`* 是一个 *`AVInputFormat`* 类型的指针。这个类型也是一个结构体，包含了这种类型的相关数据的描述。后面我们也会详细的介绍它。
 
+*`avformat_network_init()`* 是`ffmpeg`对网络的初始化，从源码是可以看出它主要负责2方面的工作；一是初始化网络环境，在mac下什么也没有做，主要是在win32环境对`WSAData`的初始化。另一方面，是对ssl的初始化，包括使用 `openssl` 或者 `gnutls`。
+
+```C
+int avformat_network_init(void)
+{
+#if CONFIG_NETWORK
+    int ret;
+    if ((ret = ff_network_init()) < 0)
+        return ret;
+    if ((ret = ff_tls_init()) < 0)
+        return ret;
+#endif
+    return 0;
+}
+```
+
+## 参数解析
 
