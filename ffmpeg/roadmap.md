@@ -1,3 +1,7 @@
+### list device 
+```
+./ffmpeg -f avfoundation -list_devices true -i ""
+```
 - parameter parse & get options
   - global options
   - codec
@@ -25,7 +29,7 @@ options: -list_devices true
     - av_dict_free
     
   
-- capture the devices
+### capture the devices
   - the access to mac(c++ application)
   copy the `Info.plist` to the direction same as ffmpeg
   - list the devices supported
@@ -34,3 +38,5 @@ options: -list_devices true
   `ffmpeg -f avfoundations -i "0:none" out.avi`
   - open screen captures
   `ffmpeg -f avfoundations -i "1:none" out.avi`
+
+
