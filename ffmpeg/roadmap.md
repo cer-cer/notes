@@ -40,3 +40,5 @@ options: -list_devices true
   `ffmpeg -f avfoundations -i "1:none" out.avi`
 
 
+### 参考
+- (ffmpeg 使用基础)[https://www.cnblogs.com/leisure_chn/p/10297002.html]
