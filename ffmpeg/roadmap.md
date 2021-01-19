@@ -41,4 +41,4 @@ options: -list_devices true
 
 
 ### 参考
-- (ffmpeg 使用基础)[https://www.cnblogs.com/leisure_chn/p/10297002.html]
+- [ffmpeg 使用基础](https://www.cnblogs.com/leisure_chn/p/10297002.html)
