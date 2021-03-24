@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-24T03:03:53.009Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="VR8U4ZwZjMJ7rZxvmAwg" version="13.11.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-03-24T04:16:02.236Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="zvF0AB8kRF11rPBeVcsA" version="13.11.0" type="github" pages="3">
   <diagram id="2_TChWOzdwiR6xvkDebC" name="type">
     <mxGraphModel dx="984" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -149,6 +149,23 @@
         </mxCell>
         <mxCell id="LLtP-2xll7NWCl7rRkhk-31" value="abstractDomain" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="QYttNlXJERrUiiLAEVLp-1">
           <mxGeometry x="800" y="680" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4R5qWUfaqWvB0-_5jmaj-0" value="The biggest important thing that recognize the domain in Container App" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="QYttNlXJERrUiiLAEVLp-1">
+          <mxGeometry x="330" y="790" width="350" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Jq2SbL1O9grkZkwS8W0j" name="status">
+    <mxGraphModel dx="984" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="On_YRpuVxK6XV8CjPpqg-0" />
+        <mxCell id="On_YRpuVxK6XV8CjPpqg-1" parent="On_YRpuVxK6XV8CjPpqg-0" />
+        <mxCell id="-ywdg91IQAyKZlrHnJoU-0" value="App Instance" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="On_YRpuVxK6XV8CjPpqg-1">
+          <mxGeometry x="80" y="410" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-ywdg91IQAyKZlrHnJoU-1" value="HomePage" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="On_YRpuVxK6XV8CjPpqg-1">
+          <mxGeometry x="240" y="410" width="110" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
