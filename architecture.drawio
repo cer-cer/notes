@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-19T04:50:27.906Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="4S_Zjy533SevJUzQ7KuN" version="14.6.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-05-19T05:11:56.709Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="6HRD0Rn-RlfiiEedXUP8" version="14.6.6" type="github" pages="4">
   <diagram id="jBVd53Vgv6jWxnRmF5C7" name="第 1 页">
     <mxGraphModel dx="1343" dy="989" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -95,10 +95,22 @@
           <mxGeometry x="160" y="365" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="iZMWBxA6Fa7nmSdLIBFp-2" value="提高可维护" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="OXPY4A9N_SDFGfVpkb2C-1">
-          <mxGeometry x="360" y="365" width="120" height="60" as="geometry" />
+          <mxGeometry x="440" y="365" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="iZMWBxA6Fa7nmSdLIBFp-3" value="定义开发约束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="OXPY4A9N_SDFGfVpkb2C-1">
-          <mxGeometry x="620" y="360" width="120" height="60" as="geometry" />
+          <mxGeometry x="700" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iZMWBxA6Fa7nmSdLIBFp-4" value="划分边界" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="OXPY4A9N_SDFGfVpkb2C-1">
+          <mxGeometry x="40" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iZMWBxA6Fa7nmSdLIBFp-5" value="定义通信" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="OXPY4A9N_SDFGfVpkb2C-1">
+          <mxGeometry x="200" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iZMWBxA6Fa7nmSdLIBFp-6" value="定义系统的开放性" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="OXPY4A9N_SDFGfVpkb2C-1">
+          <mxGeometry x="441" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iZMWBxA6Fa7nmSdLIBFp-7" value="开发规范" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="OXPY4A9N_SDFGfVpkb2C-1">
+          <mxGeometry x="710" y="530" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
