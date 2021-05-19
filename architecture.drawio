@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-19T05:19:20.723Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="jhlx-DOHCS8XJBcUAVTk" version="14.6.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-05-19T05:21:04.826Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="aLRz6PsxrjWLffjNAEJV" version="14.6.6" type="github" pages="5">
   <diagram id="jBVd53Vgv6jWxnRmF5C7" name="第 1 页">
     <mxGraphModel dx="1343" dy="989" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -142,6 +142,17 @@
         </mxCell>
         <mxCell id="iZMWBxA6Fa7nmSdLIBFp-7" value="开发规范" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="OXPY4A9N_SDFGfVpkb2C-1">
           <mxGeometry x="700" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="lv-InSF6kP05hZtmW7x2" name="第 5 页">
+    <mxGraphModel dx="1343" dy="989" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="gJK9PZTGIyqC7s2XuhQa-0" />
+        <mxCell id="gJK9PZTGIyqC7s2XuhQa-1" parent="gJK9PZTGIyqC7s2XuhQa-0" />
+        <mxCell id="vqxWjyPMfwBwWbbdELUC-0" value="&lt;font style=&quot;font-size: 18px&quot;&gt;前端架构视角&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="gJK9PZTGIyqC7s2XuhQa-1">
+          <mxGeometry x="80" y="70" width="130" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
