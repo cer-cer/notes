@@ -4,3 +4,5 @@
 - [区块链技](https://learnblockchain.cn/2018/01/11/guide/)
 
 - [javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+-[QML 中文翻译](https://www.bookstack.cn/read/QmlBook-In-Chinese/model-view-delegate-delegate.md)
