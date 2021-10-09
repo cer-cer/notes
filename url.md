@@ -5,4 +5,4 @@
 
 - [javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
--[QML 中文翻译](https://www.bookstack.cn/read/QmlBook-In-Chinese/model-view-delegate-delegate.md)
+- [QML 中文翻译](https://www.bookstack.cn/read/QmlBook-In-Chinese/model-view-delegate-delegate.md)
