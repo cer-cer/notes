@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-08T05:52:06.937Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="mczCSo9LQSHycGyJF8xh" version="15.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-08T05:54:40.682Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="nzylMwrIqKqBx3ykgEaJ" version="15.7.4" type="github">
   <diagram id="aElZW13_ZzU5r4oFQvSs" name="第 1 页">
     <mxGraphModel dx="1136" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -30,6 +30,9 @@
         </mxCell>
         <mxCell id="TO1NQpSexUQi-2rf6Atq-5" value="Destination" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TO1NQpSexUQi-2rf6Atq-12" value="1. 多个功能强耦合。&lt;br&gt;2. 代码行数膨胀。&lt;br&gt;3. 业务逻辑混乱。&lt;br&gt;4. 出现crash的几率变高。&lt;br&gt;5. 出现问题极难修复。&lt;br&gt;6. 增加新功能非常困难" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="790" y="90" width="210" height="210" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
