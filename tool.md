@@ -1,0 +1,3 @@
+- draw.io  https://app.diagrams.net/
+- text convert https://tomeko.net/online_tools/cpp_unescape.php?lang=en
+- 
