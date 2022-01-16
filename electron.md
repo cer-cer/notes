@@ -31,3 +31,9 @@ npm install --save-dev electron@16.0.6 --verbose
 npm verb lifecycle electron@16.0.6~postinstall: unsafe-perm in lifecycle true
 npm verb lifecycle electron@16.0.6~postinstall: PATH
 ```
+
+## 5. add `start` in `package.json`.
+## 6. add resource in app.
+## 7. run electron example.
+https://www.electronjs.org/zh/docs/latest/tutorial/quick-start
+
