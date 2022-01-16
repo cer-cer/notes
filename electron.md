@@ -1,5 +1,5 @@
 ## 1. unable to get local issuer certificate
-This is valide for me.
+This is validation for me.
 ```
 set NODE_TLS_REJECT_UNAUTHORIZED=0
 ```
@@ -13,7 +13,7 @@ export ELECTRON_MIRROR=https://npm.taobao.org/mirrors/electron/
 ```
 but `taobao` haven't version `16.07` (please check the version by yourself).
 
-## 3. 
+## 3. download
 Indicat the `electron` when donwload.
 
 ```
