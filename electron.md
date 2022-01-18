@@ -117,3 +117,6 @@ add attach section to `configurations`.
 - click `vscode` debug pannel, run `debug in main process`. you can check the main process debug (add breakpoint).
 - switch to `attach render process`. check the terminate is also in `reder process`. check the render process can be debug.
 
+# refer document.
+- https://wizardforcel.gitbooks.io/electron-doc/content/api/menu.html
+- 
