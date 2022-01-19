@@ -14,6 +14,11 @@ or
 npm config set "strict-ssl" false -g
 ```
 
+for the new version `node`, you MUST export your cer(MUST PEM format). like:
+```
+export NODE_EXTRA_CA_CERTS= xxx.pem
+```
+
 ## 2. RequestError: read ECONNRESET
 
 Set the electron mirror to `taobao`.
