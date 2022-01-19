@@ -137,3 +137,5 @@ add attach section to `configurations`.
 https://www.electronforge.io/templates/typescript-+-webpack-template
 
 
+
+`sudo npm install -g electron --unsafe-perm=true --allow-root`
