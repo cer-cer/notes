@@ -7,6 +7,13 @@ set NODE_TLS_REJECT_UNAUTHORIZED=0
 ```
 answer from here (https://stackoverflow.com/questions/36494336/npm-install-error-unable-to-get-local-issuer-certificate)
 
+Close `npm` or `yarn` ssl validation.
+```
+yarn config set "strict-ssl" false -g
+or
+npm config set "strict-ssl" false -g
+```
+
 ## 2. RequestError: read ECONNRESET
 
 Set the electron mirror to `taobao`.
@@ -119,4 +126,9 @@ add attach section to `configurations`.
 
 # reference document.
 - https://wizardforcel.gitbooks.io/electron-doc/content/api/menu.html
-- 
+
+
+# integrate TypeScript + webpackage.
+https://www.electronforge.io/templates/typescript-+-webpack-template
+
+
