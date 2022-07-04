@@ -1,2 +1,3 @@
 - [《Flutter实战·第二版》](https://book.flutterchina.club/)
 - [Dart keyword-static](https://www.geeksforgeeks.org/dart-static-keyword/)
+- [flutter 实战](https://wizardforcel.gitbooks.io/gsyflutterbook/content/Flutter-1.html)
