@@ -10,4 +10,4 @@
 - Can't load App.Framework.  `Failed to find assets path for "flutter_assets"`.
   - “$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh” build
   - “$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh” embed
-  -[Issue List](https://github.com/flutter/flutter/issues/29974)
+  - [Reference](https://github.com/flutter/flutter/issues/29974)
