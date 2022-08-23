@@ -11,3 +11,7 @@
   - “$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh” build
   - “$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh” embed
   - [Reference](https://github.com/flutter/flutter/issues/29974)
+
+- Can't Hotreload.
+  - 
+  - [Reference](https://github.com/flutter/flutter/issues/61956)
