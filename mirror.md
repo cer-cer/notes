@@ -13,3 +13,5 @@ sudo chown -R $(whoami):admin /usr/local/* \
 
 ### gem
 https://gems.ruby-china.com/
+
+- [update gem] (https://rubygems.org/pages/download/)
