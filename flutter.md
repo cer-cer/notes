@@ -15,3 +15,8 @@
 - Can't Hotreload.
   - 
   - [Reference](https://github.com/flutter/flutter/issues/61956)
+
+
+- Flutter Native Crash analyze
+  -  https://github.com/flutter/flutter/wiki/Crashes
+  -  
