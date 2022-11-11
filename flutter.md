@@ -21,8 +21,9 @@
   -  https://github.com/flutter/flutter/wiki/Crashes
   -  
 
-- Flutter VM pragma annotations
+- Dart VM pragma annotations
   - https://mrale.ph/dartvm/pragmas.html
+  - https://mrale.ph/dartvm/
 
 ```
 vm:entry-point	Defining entry-points into Dart code for an embedder or native methods
