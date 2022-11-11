@@ -20,3 +20,16 @@
 - Flutter Native Crash analyze
   -  https://github.com/flutter/flutter/wiki/Crashes
   -  
+
+- Flutter VM pragma annotations
+  - https://mrale.ph/dartvm/pragmas.html
+
+```
+vm:entry-point	Defining entry-points into Dart code for an embedder or native methods
+vm:never-inline	Never inline a function or method
+vm:prefer-inline	Inline a function or method when possible
+vm:notify-debugger-on-exception	Marks a function that catches exceptions, making the VM treat any caught exception as if they were uncaught. This can be used to notify an attached debugger during debugging, without pausing the app during regular execution.
+vm:external-name	Allows to specify an external (native) name for an external function. This name is used to lookup native implementation via native resolver associated with the current library through embedding APIs. This is a replacement for legacy VM specific native "name" syntax.
+vm:invisible	Allows to mark a function as invisible so it will not appear on stack traces.
+vm:always-consider-inlining	Marks a function which particularly benefits from inlining and specialization in context of the caller (for example, when concrete types of arguments are known). Inliner will not give up after one failed inlining attempt and will continue trying to inline this function.
+```
